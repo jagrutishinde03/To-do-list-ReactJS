@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# To-Do List with ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and attractive To-Do List application built with ReactJS and styled using Bootstrap.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Add new tasks with a task number, date, name, and description.
+- Mark tasks as complete or undo the completion.
+- Delete tasks.
+- Responsive and attractive UI using Bootstrap.
 
-### `npm start`
+## Screenshot
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![To-Do List Screenshot](https://github.com/jagrutishinde03/To-do-list-ReactJS/blob/main/public/Screenshot%20(69).png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/jagrutishinde03/To-do-list-ReactJS.git
+    cd To-do-list-ReactJS
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install the dependencies:
+    ```sh
+    npm install
+    ```
 
-### `npm run build`
+3. Start the development server:
+    ```sh
+    npm start
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Open your browser and visit `http://localhost:3000` to see the application running.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `src/` - Contains the source code
+  - `components/` - Contains React components
+    - `TodoForm.js` - Component for adding a new task
+    - `TodoItem.js` - Component for displaying a single task
+    - `TodoList.js` - Component for displaying the list of tasks
+  - `App.js` - Main application component
+  - `App.css` - Custom CSS for the application
 
-### `npm run eject`
+## Components
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### TodoForm
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The form for adding new tasks. It includes fields for task number, date, name, and description.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### TodoItem
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Displays a single task with options to mark as complete, undo, or delete.
 
-## Learn More
+### TodoList
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Displays the list of tasks.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Dependencies
 
-### Code Splitting
+- [React](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the Celebal technology License.
